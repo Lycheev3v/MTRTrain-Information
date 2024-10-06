@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  text-align: center;
+  padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+#updateTime {
+  margin-top: 20px;
+  font-size: 1.1em;
+}
+
+.linebtn {
+  display: block; /* 確保這個區塊顯示 */
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
